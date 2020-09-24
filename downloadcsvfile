@@ -1,0 +1,4 @@
+library(readr)
+urlfile = "https://raw.githubusercontent.com/ine-rmotr-curriculum/FreeCodeCamp-Pandas-Real-Life-Example/master/data/sales_data.csv"
+mydata<-read_csv(url(urlfile))
+head(mydata)
